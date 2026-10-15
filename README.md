@@ -1,5 +1,8 @@
 # Expense Tracker
 
+**🔗 Live demo: [expense-tracker.edsuelila.dev](https://expense-tracker.edsuelila.dev)**: log in with `demo@example.com`, password `password123`.
+The demo accounts are shared by all visitors, so data you see may have been changed by someone else.
+
 A full-stack personal finance app: record income and expenses, group them into color-coded categories, set monthly budgets per category, and see where the money goes on a dashboard with charts. The backend is a **Spring Boot 3 REST API** secured with **JWT**, storing data in **PostgreSQL** (H2 in development) with **Flyway** migrations. The frontend is an **Angular 17** single-page app built with standalone components, signals and reactive forms, with charts from **Chart.js**. Both halves have automated tests, Docker images and a GitHub Actions CI pipeline.
 
 > New to the codebase? Read the guide: **[docs/HOW-IT-WORKS.md](docs/HOW-IT-WORKS.md)**. It walks through the architecture, one request from click to database, security, the data model, every API endpoint and the design decisions. The source code is also heavily commented for learning.
